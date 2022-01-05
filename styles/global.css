@@ -1,0 +1,70 @@
+:root {
+  --primary: #1cc0ef;
+  --primary-variant: #16c0ef;
+  --white: #ffffff;
+  --gray: #7c8796;
+  --light-gray: #939ba2;
+  --gray-stroke: #e3eaed;
+  --black-variant: #2a3844;
+  --bg-variant: #f4f8fa;
+  --desc-color: #5d677e;
+  --black: #000000;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.flex-no-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
